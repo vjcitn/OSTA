@@ -1,0 +1,22 @@
+title: "Orchestrating Spatial Transcriptomics Analysis with Bioconductor"
+author: OSTA contributors
+logo: ""
+
+execute:
+  execute_notebooks: "off"
+
+parse:
+  myst_enable_extensions:
+    - colon_fence
+    - dollarmath
+
+html:
+  use_repository_button: true
+
+repository:
+  url: https://github.com/lmweber/OSTA-book
+  branch: devel
+
+sphinx:
+  config:
+    suppress_warnings: ["myst.header"]

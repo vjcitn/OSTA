@@ -1,0 +1,66 @@
+version: 1
+project:
+  title: Orchestrating Spatial Transcriptomics Analysis with Bioconductor
+  authors:
+    - name: OSTA contributors
+  github: https://github.com/lmweber/OSTA-book
+  toc:
+    - file: bkg-introduction
+      title: Introduction
+    - caption: Background
+      children:
+        - file: bkg-spatial-omics
+        - file: bkg-infrastructure
+        - file: bkg-ecosystem
+        - file: bkg-importing-data
+        - file: bkg-example-datasets
+        - file: bkg-python-interoperability
+    - caption: Sequencing-based platforms
+      children:
+        - file: seq-introduction
+        - file: seq-reads-to-counts
+        - file: seq-quality-control
+        - file: seq-intermediate-processing
+        - file: seq-deconvolution
+        - file: seq-workflow-dlpfc
+        - file: seq-workflow-visium-crc
+        - file: seq-workflow-visium-hd-bin
+        - file: seq-workflow-visium-hd-seg
+    - caption: Imaging-based platforms
+      children:
+        - file: img-introduction
+        - file: img-segmentation
+        - file: img-quality-control
+        - file: img-intermediate-processing
+        - file: img-neighborhood-analysis
+        - file: img-cell-cell-communication
+        - file: img-sub-cellular-analysis
+        - file: img-workflow-xenium
+        - file: img-workflow-cosmx
+    - caption: Platform-independent analyses
+      children:
+        - file: ind-normalization
+        - file: ind-dimensionality-reduction
+        - file: ind-clustering
+        - file: ind-feature-selection-testing
+        - file: ind-feature-set-signatures
+        - file: ind-spatial-statistics
+        - file: ind-image-analysis
+    - caption: Multiple-sample analyses
+      children:
+        - file: mult-diff-spatial-patterns
+        - file: mult-diff-colocalization
+        - file: mult-structure-based
+    - caption: Cross-platform analyses
+      children:
+        - file: crs-spatial-registration
+        - file: crs-imputation
+        - file: crs-workflow-xenvis
+    - caption: Appendices
+      children:
+        - file: apx-acknowledgments
+        - file: apx-related-resources
+        - file: apx-session-info
+        - file: apx-citation
+site:
+  template: book-theme

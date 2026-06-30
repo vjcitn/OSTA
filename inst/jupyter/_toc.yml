@@ -1,0 +1,65 @@
+format: jb-book
+root: bkg-introduction
+
+parts:
+  - caption: Background
+    chapters:
+      - bkg-spatial-omics
+      - bkg-infrastructure
+      - bkg-ecosystem
+      - bkg-importing-data
+      - bkg-example-datasets
+      - bkg-python-interoperability
+
+  - caption: Sequencing-based platforms
+    chapters:
+      - seq-introduction
+      - seq-reads-to-counts
+      - seq-quality-control
+      - seq-intermediate-processing
+      - seq-deconvolution
+      - seq-workflow-dlpfc
+      - seq-workflow-visium-crc
+      - seq-workflow-visium-hd-bin
+      - seq-workflow-visium-hd-seg
+
+  - caption: Imaging-based platforms
+    chapters:
+      - img-introduction
+      - img-segmentation
+      - img-quality-control
+      - img-intermediate-processing
+      - img-neighborhood-analysis
+      - img-cell-cell-communication
+      - img-sub-cellular-analysis
+      - img-workflow-xenium
+      - img-workflow-cosmx
+
+  - caption: Platform-independent analyses
+    chapters:
+      - ind-normalization
+      - ind-dimensionality-reduction
+      - ind-clustering
+      - ind-feature-selection-testing
+      - ind-feature-set-signatures
+      - ind-spatial-statistics
+      - ind-image-analysis
+
+  - caption: Multiple-sample analyses
+    chapters:
+      - mult-diff-spatial-patterns
+      - mult-diff-colocalization
+      - mult-structure-based
+
+  - caption: Cross-platform analyses
+    chapters:
+      - crs-spatial-registration
+      - crs-imputation
+      - crs-workflow-xenvis
+
+  - caption: Appendices
+    chapters:
+      - apx-acknowledgments
+      - apx-related-resources
+      - apx-session-info
+      - apx-citation
